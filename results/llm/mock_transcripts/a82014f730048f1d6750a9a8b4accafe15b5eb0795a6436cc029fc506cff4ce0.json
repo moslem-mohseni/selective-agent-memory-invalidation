@@ -1,0 +1,23 @@
+{
+  "backend": "mock",
+  "model": "mock",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Execute a synthetic task under the current tool contract. Return only JSON with key steps, a list of objects with tool (integer), names (accepted argument names in canonical order), units (current unit factors in canonical order). Include prerequisite tools before their dependents and all requested tools. A saved plan may be stale; repair it if needed. {\"contract\": {\"0\": {\"canonical\": [\"t0_p0\", \"t0_p1\", \"t0_p2\"], \"factors\": [1.0, 1.0, 1.0], \"names\": [\"t0_p0\", \"t0_p1\", \"t0_p2\"], \"requires\": []}, \"1\": {\"canonical\": [\"t1_p0\", \"t1_p1\"], \"factors\": [1000.0, 1.0], \"names\": [\"t1_p0\", \"t1_p1\"], \"requires\": []}, \"10\": {\"canonical\": [\"t10_p0\", \"t10_p1\", \"t10_p2\"], \"factors\": [1.0, 1.0, 1.0], \"names\": [\"t10_p0\", \"t10_p1\", \"t10_p2\"], \"requires\": []}, \"11\": {\"canonical\": [\"t11_p0\", \"t11_p1\", \"t11_p2\"], \"factors\": [1.0, 1.0, 1.0], \"names\": [\"t11_p0\", \"t11_p1\", \"t11_p2\"], \"requires\": []}, \"2\": {\"canonical\": [\"t2_p0\", \"t2_p1\"], \"factors\": [1.0, 1.0], \"names\": [\"t2_p0\", \"t2_p1\"], \"requires\": []}, \"3\": {\"canonical\": [\"t3_p0\", \"t3_p1\"], \"factors\": [1.0, 1.0], \"names\": [\"t3_p0\", \"t3_p1\"], \"requires\": []}, \"4\": {\"canonical\": [\"t4_p0\", \"t4_p1\"], \"factors\": [1.0, 1.0], \"names\": [\"t4_p0\", \"t4_p1\"], \"requires\": []}, \"5\": {\"canonical\": [\"t5_p0\", \"t5_p1\", \"t5_p2\"], \"factors\": [1.0, 1.0, 1.0], \"names\": [\"t5_p0\", \"t5_p1\", \"t5_p2\"], \"requires\": []}, \"6\": {\"canonical\": [\"t6_p0\", \"t6_p1\", \"t6_p2\"], \"factors\": [1.0, 1.0, 1.0], \"names\": [\"t6_p0\", \"t6_p1\", \"t6_p2\"], \"requires\": []}, \"7\": {\"canonical\": [\"t7_p0\", \"t7_p1\"], \"factors\": [1.0, 1.0], \"names\": [\"t7_p0\", \"t7_p1\"], \"requires\": []}, \"8\": {\"canonical\": [\"t8_p0\", \"t8_p1\"], \"factors\": [1.0, 1.0], \"names\": [\"t8_p0\", \"t8_p1\"], \"requires\": []}, \"9\": {\"canonical\": [\"t9_p0\", \"t9_p1\"], \"factors\": [1.0, 1.0], \"names\": [\"t9_p0\", \"t9_p1\"], \"requires\": []}}, \"requested_tools\": [1, 5, 7], \"saved_plan\": [{\"names\": [\"t1_p0\", \"t1_p1\"], \"tool\": 1, \"units\": [1.0, 1.0]}, {\"names\": [\"t5_p0\", \"t5_p1\", \"t5_p2\"], \"tool\": 5, \"units\": [1.0, 1.0, 1.0]}, {\"names\": [\"t7_p0\", \"t7_p1\"], \"tool\": 7, \"units\": [1.0, 1.0]}]}"
+    }
+  ],
+  "seed": 30041,
+  "temperature": 0,
+  "max_tokens": 768,
+  "response": "{\"steps\": []}",
+  "raw": {
+    "mock": true
+  },
+  "elapsed_seconds": 0.0,
+  "reserved_usd": 0.0,
+  "prompt_sha256": "a82014f730048f1d6750a9a8b4accafe15b5eb0795a6436cc029fc506cff4ce0",
+  "cached": false,
+  "seed_supported": true,
+  "mock": true
+}

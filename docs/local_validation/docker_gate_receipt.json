@@ -1,0 +1,16 @@
+{
+  "full_pipeline_image": "myarticle-p1:20261026-final",
+  "full_pipeline_exit": 0,
+  "csv_comparison": "all 15 scientific CSVs and the separate mock CSV match exactly",
+  "final_packaging_image": "myarticle-p1:20261026-ready",
+  "packaging_regression_exit": 0,
+  "scientific_source_hashes": {
+    "requirements.txt": "038f0404bd1ae9bc55196b92fb724a9ab001d4b8933e3a96f3b35dc783d6ecda",
+    "src/analyze.py": "5018f8df6e65f0cda4987dc720d7993513ac4882e03569e323b17c875fd89157",
+    "src/env.py": "7a7a5f29508f50300a030bd06a43aa47b7916d6377ba4e07ae05bab8253186eb",
+    "src/run_experiments.py": "a76a605b4e23c801c1757d08f5cbc7579523e49a8b5e52c8d5e149c25d0b01cd",
+    "src/sim.py": "9b2d59541497e020dff77d384fee7700a8ebf296f826c6fadd49d526c1d1de8a",
+    "src/stats_utils.py": "bd528dc747ab9cc8adfeb85e6780d0b8119dfcb69587ab7faf4dc60f37dded1a"
+  },
+  "scope": "Only supplementary filename discovery and an unused support helper extension changed after the full Docker run. Both images have identical experiment, analysis, statistics and requirements content."
+}

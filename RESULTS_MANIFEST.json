@@ -1,0 +1,70 @@
+{
+  "paper": "P1",
+  "normalization": "CSV line endings normalized to LF; scientific checks use exact parsed values",
+  "files": {
+    "results/e1_main.csv": {
+      "mode": "lf",
+      "sha256": "8f9d0195472004782375d1d101580b62331b2b40f57b5b6d2fa0c34cf65d1ca5"
+    },
+    "results/e2_recall.csv": {
+      "mode": "lf",
+      "sha256": "e59b41fa3c9ab623a089f567cf78b45e3bd3a8f7525ceba70542a23ca2fad8b9"
+    },
+    "results/e3_magnitude.csv": {
+      "mode": "lf",
+      "sha256": "8ec905781fdd0935bbd34dac53e77cf55ca28322f0007e7b98ea15094e70a1a0"
+    },
+    "results/e4_type.csv": {
+      "mode": "lf",
+      "sha256": "3957a815be396d6c839a0cfff861f6109606ebc60f6b0c61b377f9299a83fa49"
+    },
+    "results/e5_sensitivity.csv": {
+      "mode": "lf",
+      "sha256": "268ee4e97265b93ead98897acf8bd277135aba534f2093e12401b367d76e4f35"
+    },
+    "results/e6_audit.csv": {
+      "mode": "lf",
+      "sha256": "f2ffb0319a9f33a9dd3f542657a7e94cba7f22e13fb04ebf316733174cf38f95"
+    },
+    "results/e7_confirm.csv": {
+      "mode": "lf",
+      "sha256": "fb710a6e0c3b6945456d6b07437b30173c3a75b67986b73b97485ec1ff459c7a"
+    },
+    "results/e8_scale_trace.csv": {
+      "mode": "lf",
+      "sha256": "901b05a875b3af10b259d53ff1d8c07bf3257a59ea49533a3fd4371f60ed5b03"
+    },
+    "results/e9_trace_recall.csv": {
+      "mode": "lf",
+      "sha256": "9a451fece841cac47fa323fd6cdac0dc958d5993a129dea1684f0a289b22dd39"
+    },
+    "results/llm/dry_run.csv": {
+      "mode": "lf",
+      "sha256": "4ec569ef8a44fd73cf74fbf2333f075411c9f4f5cd35dfe8f6dbf4f97bef98e8"
+    },
+    "results/table1_main.csv": {
+      "mode": "lf",
+      "sha256": "580254c0bd3159f96c1c97613491e0f64a77f7a1d5c65d73fff8ec8de6918ba6"
+    },
+    "results/table2_paired.csv": {
+      "mode": "lf",
+      "sha256": "48632e515dce1d708a29f8577678503d60594e0b9831258968e670b69cd28bd4"
+    },
+    "results/table3_harm_weighted_cost.csv": {
+      "mode": "lf",
+      "sha256": "dab01000720ccbe1337423ee0e7c8509bc5b74ab0835cc0569237e62079c9923"
+    },
+    "results/table4_sensitivity.csv": {
+      "mode": "lf",
+      "sha256": "a8ba6a0ba1dbfcf462f06a122b6aea8bd61010b409972a1cb8db3681ce671cc3"
+    },
+    "results/table5_audit.csv": {
+      "mode": "lf",
+      "sha256": "92c5c2ce8f9023863d0610d06a509c30124ecbeb8c877c3abce0c5452c5b0c78"
+    },
+    "results/table6_magnitude.csv": {
+      "mode": "lf",
+      "sha256": "843ace0e674de6bc572d0c5ac60882c9dad5947e8bec5db3c511d75d56bf20d6"
+    }
+  }
+}

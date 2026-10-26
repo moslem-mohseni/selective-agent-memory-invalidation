@@ -1,0 +1,95 @@
+{
+  "comparison": "exact parsed content",
+  "files": [
+    {
+      "file": "e1_main.csv",
+      "rows": 2400,
+      "columns": 14,
+      "equal": true
+    },
+    {
+      "file": "e2_recall.csv",
+      "rows": 14400,
+      "columns": 14,
+      "equal": true
+    },
+    {
+      "file": "e3_magnitude.csv",
+      "rows": 12000,
+      "columns": 14,
+      "equal": true
+    },
+    {
+      "file": "e4_type.csv",
+      "rows": 9600,
+      "columns": 14,
+      "equal": true
+    },
+    {
+      "file": "e5_sensitivity.csv",
+      "rows": 31200,
+      "columns": 14,
+      "equal": true
+    },
+    {
+      "file": "e6_audit.csv",
+      "rows": 3600,
+      "columns": 14,
+      "equal": true
+    },
+    {
+      "file": "e7_confirm.csv",
+      "rows": 7200,
+      "columns": 14,
+      "equal": true
+    },
+    {
+      "file": "e8_scale_trace.csv",
+      "rows": 7200,
+      "columns": 14,
+      "equal": true
+    },
+    {
+      "file": "e9_trace_recall.csv",
+      "rows": 24000,
+      "columns": 5,
+      "equal": true
+    },
+    {
+      "file": "table1_main.csv",
+      "rows": 8,
+      "columns": 13,
+      "equal": true
+    },
+    {
+      "file": "table2_paired.csv",
+      "rows": 24,
+      "columns": 9,
+      "equal": true
+    },
+    {
+      "file": "table3_harm_weighted_cost.csv",
+      "rows": 4,
+      "columns": 9,
+      "equal": true
+    },
+    {
+      "file": "table4_sensitivity.csv",
+      "rows": 15,
+      "columns": 17,
+      "equal": true
+    },
+    {
+      "file": "table5_audit.csv",
+      "rows": 12,
+      "columns": 5,
+      "equal": true
+    },
+    {
+      "file": "table6_magnitude.csv",
+      "rows": 7,
+      "columns": 17,
+      "equal": true
+    }
+  ]
+}
