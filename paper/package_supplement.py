@@ -20,7 +20,7 @@ def main():
                 if path.name not in ('run_log.txt','number_audit.json'):
                     files.append(path)
     files.append(root/'paper'/'DarnerView templete.docx')
-    for name in ('requirements.txt','Dockerfile','run_all.sh','run_all.ps1','README.md','.dockerignore','.gitignore','.gitattributes','CITATION.md','SOURCE_MANIFEST.json','RESULTS_MANIFEST.json'):
+    for name in ('requirements.txt','Dockerfile','run_all.sh','run_all.ps1','README.md','.dockerignore','.gitignore','.gitattributes','CITATION.md','CITATION.cff','SOURCE_MANIFEST.json','RESULTS_MANIFEST.json'):
         if (root/name).exists():files.append(root/name)
     manifest={str(p.relative_to(root)).replace('\\','/'):hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(set(files))}
     with zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED) as z:

@@ -45,12 +45,12 @@ The protocol uses 100 held-out worlds with five paired policies and exact execut
 - `results/`: raw seed-level and analysed CSVs; `results/llm/` separates mock output from any real-model experiment.
 - `figures/`: publication-resolution charts with alternative text in the manuscript.
 - `literature/verified_sources.md`, `notes_fulltext.md`: primary-record verification and closest-work positioning.
-- `paper/author.json`: the single author metadata source. The fixed correspondence email is retained.
+- `paper/author.json`: the central three-author metadata source, including correspondence and repository details.
 - `paper/numeric_provenance.json`, `number_audit.json`: recomputable expressions, input hashes and numeric coverage.
 - `paper/manuscript_audit.json`: citation, abstract, image and template evidence.
 - `paper/supplementary_p1.zip`: independent code, template, requirements, seeds, results and figures with a SHA256 manifest.
 
-After editing only `paper/author.json`, run `python build_manuscript.py` from the `paper/` directory and then `./docx2pdf.ps1` with the DOCX/PDF paths. No journal submission or public upload was made.
+After editing only `paper/author.json`, run `python build_manuscript.py` from the `paper/` directory and then `./docx2pdf.ps1` with the DOCX/PDF paths. Confirmed author metadata and the research repository are recorded in paper/author.json.
 
 ## Scientific boundaries
 The tiered policy is exploratory, with fresh-seed confirmation. The added scale condition changes library utilisation together with size. The trace extractor operates on a known grammar and its measured recall does not transfer to opaque APIs. All reported uncertainty concerns simulated worlds. AgentMemoryBench and the related external benchmarks were not run. The conclusions do not establish safety or frequencies in real deployments.

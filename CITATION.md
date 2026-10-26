@@ -1,9 +1,5 @@
 # Citing this research artifact
 
-Repository: https://github.com/moslem-mohseni/selective-agent-memory-invalidation
+Moslem Mohseni Khah, Sepide Ebrahimian Maqsoud, Navid Sadeghi. Selective Invalidation of Procedural Agent Memory under Tool Contract Changes in a Controlled Simulation. Research artifact. https://github.com/moslem-mohseni/selective-agent-memory-invalidation
 
-Use an exact commit permalink or a future versioned release when identifying the code/results used. Record the commit SHA with your reproduction report. The default branch can change.
-
-The final three-author metadata is awaiting confirmation together with the manuscript author block. Formal author-year citation metadata and any CITATION.cff will be added after that confirmation. The current paper/author.json is an explicitly unfinished generation fixture, not an assertion of authorship. No DOI has been registered, and this repository does not assert journal acceptance or publication.
-
-The experimental artifact is available now. Final manuscript GitHub links and reference entries will be updated when the author metadata is finalized.
+Use CITATION.cff and record the exact commit SHA of the version reproduced. No DOI or journal acceptance is asserted.
